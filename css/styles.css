@@ -1,9 +1,13 @@
 body {
-	background: #67B26F;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #67B26F;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #4ca2cd, #67B26F);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #4ca2cd, #67B26F);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	margin-top: 100px;
+	min-height: 100%;
 }
 
 #container {
@@ -30,22 +34,15 @@ h1 {
 }
 
 p {
-	/*padding-left: 20px;*/
 	padding-top: 15px;
 }
 
 form input[type="text"] {
-	width=90px;
-}
-
-input {
-	/*padding-left: 20px;*/
+	width: 90px;
 }
 
 #billAmmount {
 	font-size: 14px;
-
-	color: #red;
 	background-color: #f7f7f7;
 	width: 60%;
 	padding: 5px 5px 8px 8px;
@@ -61,7 +58,6 @@ input {
 	width: 60%;
 	padding: 5px 5px 8px 8px;
 	margin-left: 20px;
-	color: #red;
 	background-color: #f7f7f7;
 	font-size: 14px;
 }
@@ -88,6 +84,7 @@ button {
 	font-size: 17px;
 	color: white;
 }
+
 button:hover {
 	background: #4c2827;
 	border-bottom-color: #111;
@@ -123,14 +120,15 @@ button:active {
 	display: block;
 }
 
-
 footer p {
 	margin: 10px;
 }
+
 a {
 	color: black;
 	text-decoration: underline;
 }
+
 a:hover {
 	color: #AD133A;
 }
